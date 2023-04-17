@@ -33,7 +33,6 @@ function dateSample(sampleActivity) {
 
   const  t = Math.ceil(Math.log(MODERN_ACTIVITY / sample) / k)
 
-  // console.log(t)
   return  t
 }
 
